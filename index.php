@@ -1,7 +1,7 @@
 <?php
  
 $strAccessToken = "JJR6wwXnDuV8KHUJ+eGu+Cvgfyxl9XsOQmlkFxuT5eidBkyt/676HGech3nWGAmO+r8HEt2soyaPVdsm6YLEXjv1ai6KUhWSJHmrhye+oQeMORSeW6u7NOqYpuSQ0QZMmedUEkFyl7SOswgkLj6M6AdB04t89/1O/w1cDnyilFU=";
-"predis/predis": "1.0.3"
+
 $content = file_get_contents('php://input');
 $arrJson = json_decode($content, true);
  
